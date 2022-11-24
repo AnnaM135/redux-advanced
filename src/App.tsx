@@ -5,15 +5,14 @@ import { HomePage } from "./pages/HomePage";
 
 function App() {
   return (
-    <>
-    <Navigation />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/favorites" element={<FavoritesPage />} />
-      </Routes>
-    </>
+    <div>
+      <Navigation />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/favorites" element={<FavoritesPage />} />
+        </Routes>
+    </div>
   )
-  ;
 }
 
 export default App;
